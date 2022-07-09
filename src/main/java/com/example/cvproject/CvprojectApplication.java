@@ -11,6 +11,7 @@ public class CvprojectApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
+        System.out.println("hellos");
         return "hello";
     }
 
