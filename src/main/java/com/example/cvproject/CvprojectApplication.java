@@ -12,7 +12,7 @@ public class CvprojectApplication {
     @GetMapping("/welcome")
     public String welcome(){
         System.out.println("hellos");
-        return "hello";
+        return "whatsapp";
     }
 
     public static void main(String[] args) {
